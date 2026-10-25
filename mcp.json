@@ -1,0 +1,51 @@
+{
+  "name": "ross-anderson-ai-mcp",
+  "version": "1.0.0",
+  "description": "Ross Anderson AI Model Context Protocol Server for Autonomous Security Engineering, Hardware Security Modules, Information Security Economics & Peer-to-Peer Resilience Protocol",
+  "tools": [
+    {
+      "name": "audit_security_engineering_incentives",
+      "description": "Evaluate institutional security architectures for incentive misalignments, payment card vulnerabilities, and hardware tampering vectors",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "system_architecture": {
+            "type": "string"
+          },
+          "economic_incentive_model": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "system_architecture"
+        ]
+      }
+    },
+    {
+      "name": "disburse_security_economics_bounty",
+      "description": "Trigger automated micro-escrow bounties for security engineering audits, hardware security module research, and peer-to-peer storage resilience",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
